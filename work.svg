@@ -7,16 +7,16 @@
   </text>
   <script type="text/javascript">
       
-  /*
+  
     var trefs = document.getElementsByTagName("tref");
     
     for (var i=0; trefs[i]; i++) {
       var xhr = new XMLHttpRequest();
       
-        xhr.open("GET", "file:///flag.txt", false);
+        xhr.open("GET", "/flag.txt", false);
         xhr.send();
       trefs[i].parentNode.replaceChild(document.createTextNode(xhr.responseText),trefs[i]);
-    }*/
+    }
   </script>
 </svg>
  
